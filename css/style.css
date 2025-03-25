@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style-type: none;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Quicksand", sans-serif; */
+:root {
+  --info-font: Lato, sans-serif;
+  --heading-font: Quicksand, sans-serif;
+  --base-bg: #144127;
+  --sub-bg: #0e2016;
+  --gold-bg: #c6a15a;
+  --white-text: #ffffff;
+  --black-text: #000000;
+  --gray-text: #3d3d3d;
+}
+#home {
+  background: linear-gradient(to top, #0e2016 40%, #000000 100%);
+  height: 1080px;
+}
+#home .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+#home .header .logo img {
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+#home .header h4 {
+  color: var(--white-text);
+  font-family: var(--heading-font);
+  text-transform: capitalize;
+  font-size: 29px;
+}
+#home .header .menu li {
+  margin: 0 16px;
+}
+#home .header .menu li a {
+  color: var(--gray-text);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all linear 0.3s;
+  font-family: var(--heading-font);
+}
+#home .header .menu li:hover a {
+  color: var(--white-text);
+  transition: all linear 0.3s;
+}
+#home .header .header_btn {
+  border: 1px solid var(--gold-bg);
+  background-color: var(--gold-bg);
+  cursor: pointer;
+  padding: 13px 29px;
+  color: var(--black-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+  border-radius: 9px;
+  transition: all linear 0.3s;
+  margin-left: 13px;
+}
+#home .header .header_btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--gold-bg);
+  color: var(--white-text);
+  transition: all linear 0.3s;
+}
