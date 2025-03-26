@@ -24,7 +24,7 @@ a {
   --gold-bg: #c6a15a;
   --white-text: #ffffff;
   --black-text: #000000;
-  --gray-text: #6E7F80;
+  --gray-text: #6e7f80;
 }
 
 /* header css starts here  */
@@ -36,7 +36,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  padding: 39px 0;
 }
 #home .header .logo img {
   height: 39px;
@@ -87,16 +87,16 @@ a {
 /* header css ends here  */
 
 /* banner css starts here  */
-#home .banner{
+#home .banner {
   height: 460px;
   background-color: var(--base-bg);
   border-radius: 23px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid #50A660;
+  border: 1px solid #50a660;
 }
-#home .left .banner_heading h1{
+#home .left .banner_heading h1 {
   color: var(--white-text);
   text-transform: capitalize;
   font-family: var(--info-font);
@@ -105,19 +105,19 @@ a {
   margin-bottom: 16px;
   width: 646px;
 }
-#home .left .banner_heading h1 span{
+#home .left .banner_heading h1 span {
   display: inline-block;
 }
-#home .left .banner_heading p{
+#home .left .banner_heading p {
   color: var(--white-text);
-  opacity: .6;
+  opacity: 0.6;
   font-family: var(--heading-font);
   margin-bottom: 16px;
   font-size: 16px;
   text-align: justify;
   width: 560px;
 }
-#home .left .banner_button .hire_me{
+#home .left .banner_button .hire_me {
   border: 1px solid var(--gold-bg);
   background-color: var(--gold-bg);
   cursor: pointer;
@@ -129,49 +129,63 @@ a {
   border-radius: 9px;
   transition: all linear 0.3s;
 }
-#home .left .banner_button .hire_me:hover{
+#home .left .banner_button .hire_me:hover {
   background-color: transparent;
   border: 1px solid var(--gold-bg);
   color: var(--white-text);
   transition: all linear 0.3s;
 }
-#home .right img{
+#home .right img {
   height: 458px;
 }
 /* banner css ends here  */
 
-/* project css starts here  */
-#home .project{
+/* home project css starts here  */
+#home .home_project {
   padding: 66px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#home .project .project_area{
+#home .home_project .home_project_area {
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 16px;
 }
-#home .project_area .project_room{
+#home .home_project_area .home_project_room {
   height: 120px;
   width: 200px;
-  border: 1px solid #50A660;
+  border: 1px solid #50a660;
   border-radius: 13px;
 }
-
-#home .project .project_texts h2{
+#home .home_project_area .home_project_room h6 {
   color: var(--white-text);
   text-transform: capitalize;
-  font-size: 29px;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 35px;
+}
+#home .home_project .project_texts h2 {
+  color: var(--white-text);
+  text-transform: capitalize;
+  font-size: 26px;
+  text-align: justify;
   width: 565px;
   margin-bottom: 25px;
   line-height: 43px;
 }
-#home .project .project_texts p{
+#home .home_project .project_texts p {
   color: var(--white-text);
-  opacity: .6;
+  opacity: 0.6;
   width: 565px;
+  text-align: justify;
   margin-bottom: 0;
 }
-/* project css ends here  */
+/*home project css ends here  */
 
+/* project section starts here  */
+#project{
+  padding: 49px 0;
+  background-color: var(--sub-bg);
+}
+/* project section ends here  */
