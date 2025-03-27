@@ -140,6 +140,7 @@ a {
 }
 /* banner css ends here  */
 
+
 /* home project css starts here  */
 #home .home_project {
   padding: 66px 0;
@@ -183,9 +184,11 @@ a {
 }
 /*home project css ends here  */
 
+
 /* project section starts here  */
 #project{
   padding: 49px 0;
   background-color: var(--sub-bg);
 }
+
 /* project section ends here  */
