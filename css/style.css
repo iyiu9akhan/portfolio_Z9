@@ -140,9 +140,8 @@ a {
 }
 /* banner css ends here  */
 
-
 /* home project css starts here  */
-#home .home_project {
+/* #home .home_project {
   padding: 66px 0;
   display: flex;
   justify-content: space-between;
@@ -181,14 +180,61 @@ a {
   width: 565px;
   text-align: justify;
   margin-bottom: 0;
-}
+} */
 /*home project css ends here  */
 
+/* code_runner css starts here  */
+#home .code_runner {
+  /* padding: 36px; */
+  position: relative;
+  height: 100px;
+  margin: 36px 0;
+  overflow: hidden;
+  width: 100%;
+  /* display: flex;
+  align-items: center; */
+}
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+  
+}
+#home .code_runner .item {
+  width: 360px;
+  height: 100px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
+  /* left: -200px; */
+  right: 100%;
+  animation-name: scrollRight;
+  animation-duration: 19s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation-delay: 1s; */
+}
+
+#home .code_runner .item1 {
+  animation-delay: calc(19s / 4 * (4 - 1));
+}
+#home .code_runner .item2 {
+  animation-delay: calc(19s / 4 * (4 - 2));
+}
+#home .code_runner .item3 {
+  animation-delay: calc(19s / 4 * (4 - 3));
+}
+#home .code_runner .item4 {
+  animation-delay: calc(19s / 4 * (4 - 4));
+}
+
+
+/* code_runner css ends here  */
 
 /* project section starts here  */
-#project{
+/* #project{
   padding: 49px 0;
   background-color: var(--sub-bg);
-}
+} */
 
 /* project section ends here  */
