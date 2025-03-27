@@ -13,7 +13,9 @@ a {
   text-decoration: none;
   color: blue;
 }
-
+body {
+  overflow: hidden;
+}
 /* font-family: "Lato", sans-serif; */
 /* font-family: "Quicksand", sans-serif; */
 :root {
@@ -95,6 +97,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   border: 1px solid #50a660;
+  margin-bottom: 39px;
 }
 #home .left .banner_heading h1 {
   color: var(--white-text);
@@ -184,50 +187,171 @@ a {
 /*home project css ends here  */
 
 /* code_runner css starts here  */
-#home .code_runner {
-  /* padding: 36px; */
+
+#home .code_runner .road_one {
   position: relative;
   height: 100px;
-  margin: 36px 0;
   overflow: hidden;
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
   width: 100%;
-  /* display: flex;
-  align-items: center; */
 }
 @keyframes scrollRight {
   to {
-    right: -200px;
+    right: -500px;
   }
-  
 }
-#home .code_runner .item {
-  width: 360px;
+
+#home .code_runner .road_one .item {
+  width: 34%;
   height: 100px;
-  background-color: red;
+  background-color: var(--base-bg);
+  color: var(--white-text);
   border-radius: 6px;
   position: absolute;
   /* left: -200px; */
   right: 100%;
   animation-name: scrollRight;
-  animation-duration: 19s;
+  animation-duration: 55s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  /* animation-delay: 1s; */
 }
 
-#home .code_runner .item1 {
-  animation-delay: calc(19s / 4 * (4 - 1));
+#home .code_runner .road_one .item1 {
+  animation-delay: calc(55s / 4 * (4 - 1) * -1);
 }
-#home .code_runner .item2 {
-  animation-delay: calc(19s / 4 * (4 - 2));
+#home .code_runner .road_one .item2 {
+  animation-delay: calc(55s / 4 * (4 - 2) * -1);
 }
-#home .code_runner .item3 {
-  animation-delay: calc(19s / 4 * (4 - 3));
+#home .code_runner .road_one .item3 {
+  animation-delay: calc(55s / 4 * (4 - 3) * -1);
 }
-#home .code_runner .item4 {
-  animation-delay: calc(19s / 4 * (4 - 4));
+#home .code_runner .road_one .item4 {
+  animation-delay: calc(55s / 4 * (4 - 4) * -1);
 }
 
+
+
+
+
+
+
+
+
+
+
+#home .code_runner .road_two {
+  position: relative;
+  height: 100px;
+  margin-top: 9px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+  width: 100%;
+}
+@keyframes scrollLeft {
+  to {
+    left: -430px;
+  }
+}
+
+#home .code_runner .road_two .item {
+  background-color: var(--base-bg);
+  width: 26%;
+  height: 100px;
+  color: var(--white-text);
+  border-radius: 6px;
+  position: absolute;
+  left: 100%;
+  animation-name: scrollLeft;
+  animation-duration: 39s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#home .code_runner .road_two .item1 {
+  animation-delay: calc(39s / 5 * (5 - 1) * -1);
+}
+#home .code_runner .road_two .item2 {
+  animation-delay: calc(39s / 5 * (5 - 2) * -1);
+}
+#home .code_runner .road_two .item3 {
+  animation-delay: calc(39s / 5 * (5 - 3) * -1);
+}
+#home .code_runner .road_two .item4 {
+  animation-delay: calc(39s / 5 * (5 - 4) * -1);
+}
+#home .code_runner .road_two .item5 {
+  animation-delay: calc(39s / 5 * (5 - 5) * -1);
+}
+
+
+
+
+
+
+
+
+
+
+
+#home .code_runner .road_three {
+  position: relative;
+  height: 100px;
+  /* margin: 36px 0; */
+  margin-top: 9px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+  width: 100%;
+}
+@keyframes scrollRight {
+  to {
+    right: -500px;
+  }
+}
+
+#home .code_runner .road_three .item {
+  width: 34%;
+  height: 100px;
+  background-color: var(--base-bg);
+  color: var(--white-text);
+  border-radius: 6px;
+  position: absolute;
+  /* left: -200px; */
+  right: 100%;
+  animation-name: scrollRight;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#home .code_runner .road_three .item1 {
+  animation-delay: calc(30s / 4 * (4 - 1) * -1);
+}
+#home .code_runner .road_three .item2 {
+  animation-delay: calc(30s / 4 * (4 - 2) * -1);
+}
+#home .code_runner .road_three .item3 {
+  animation-delay: calc(30s / 4 * (4 - 3) * -1);
+}
+#home .code_runner .road_three .item4 {
+  animation-delay: calc(30s / 4 * (4 - 4) * -1);
+}
 
 /* code_runner css ends here  */
 
