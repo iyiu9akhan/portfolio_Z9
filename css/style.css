@@ -196,7 +196,7 @@ body {
 /* code_runner css starts here  */
 #home .code_runner {
   font-family: "Fira Code", monospace;
-  opacity: .6;
+  opacity: 0.6;
   margin-bottom: 39px;
 }
 #home .code_runner .road_one {
