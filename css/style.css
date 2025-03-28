@@ -298,7 +298,7 @@ body {
   position: relative;
   height: 100px;
   /* margin: 36px 0; */
-  margin-top: 9px;
+  margin-top: -6px;
   overflow: hidden;
   mask-image: linear-gradient(
     to left,
@@ -358,12 +358,15 @@ body {
 }
 #home .code_runner .white {
   color: var(--code-color-white);
+  /* color: var(--code-color-gold); */
 }
 #home .code_runner .green {
   color: var(--code-color-green);
 }
 #home .code_runner .red {
-  color: var(--code-color-red);
+  /* color: var(--code-color-red); */
+  color: var(--code-color-gold);
+
 }
 #home .code_runner .pink {
   color: var(--code-color-pink);
