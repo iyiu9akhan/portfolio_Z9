@@ -196,6 +196,7 @@ body {
 /* code_runner css starts here  */
 #home .code_runner {
   font-family: "Fira Code", monospace;
+  opacity: .6;
 }
 #home .code_runner .road_one {
   position: relative;
@@ -217,7 +218,7 @@ body {
 }
 
 #home .code_runner .road_one .item {
-  width: 33%;
+  width: 34%;
   height: 100px;
   /* background-color: var(--base-bg); */
   /* background-color: red; */
@@ -248,7 +249,7 @@ body {
 #home .code_runner .road_two {
   position: relative;
   height: 100px;
-  margin-top: -3px;
+  margin-top: -6px;
   overflow: hidden;
   mask-image: linear-gradient(
     to left,
@@ -364,8 +365,8 @@ body {
   color: var(--code-color-green);
 }
 #home .code_runner .red {
-  /* color: var(--code-color-red); */
-  color: var(--code-color-gold);
+  color: var(--code-color-red);
+  /* color: var(--code-color-gold); */
 
 }
 #home .code_runner .pink {
