@@ -197,6 +197,7 @@ body {
 #home .code_runner {
   font-family: "Fira Code", monospace;
   opacity: .6;
+  margin-bottom: 39px;
 }
 #home .code_runner .road_one {
   position: relative;
@@ -249,7 +250,7 @@ body {
 #home .code_runner .road_two {
   position: relative;
   height: 100px;
-  margin-top: -6px;
+  margin-top: -4px;
   overflow: hidden;
   mask-image: linear-gradient(
     to left,
@@ -299,7 +300,7 @@ body {
   position: relative;
   height: 100px;
   /* margin: 36px 0; */
-  margin-top: -6px;
+  margin-top: -4px;
   overflow: hidden;
   mask-image: linear-gradient(
     to left,
@@ -359,15 +360,12 @@ body {
 }
 #home .code_runner .white {
   color: var(--code-color-white);
-  /* color: var(--code-color-gold); */
 }
 #home .code_runner .green {
   color: var(--code-color-green);
 }
 #home .code_runner .red {
   color: var(--code-color-red);
-  /* color: var(--code-color-gold); */
-
 }
 #home .code_runner .pink {
   color: var(--code-color-pink);
