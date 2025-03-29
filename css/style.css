@@ -299,7 +299,6 @@ body {
 #home .code_runner .road_three {
   position: relative;
   height: 100px;
-  /* margin: 36px 0; */
   margin-top: -4px;
   overflow: hidden;
   mask-image: linear-gradient(
@@ -316,6 +315,7 @@ body {
     right: -500px;
   }
 }
+
 
 #home .code_runner .road_three .item {
   width: 34%;
