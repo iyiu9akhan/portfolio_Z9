@@ -13,9 +13,9 @@ a {
   text-decoration: none;
   color: blue;
 }
-body {
+/* body {
   overflow: hidden;
-}
+} */
 /* font-family: "Lato", sans-serif; */
 /* font-family: "Quicksand", sans-serif; */
 /* font-family: "Fira Code", monospace; */
@@ -39,7 +39,6 @@ body {
 /* header css starts here  */
 #home {
   background: linear-gradient(to top, #0e2016 40%, #000000 100%);
-  /* height: 993px; */
 }
 #home .header {
   display: flex;
@@ -150,54 +149,31 @@ body {
 }
 /* banner css ends here  */
 
-/* home project css starts here  */
-/* #home .home_project {
-  padding: 66px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#home .home_project .home_project_area {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 16px;
-}
-#home .home_project_area .home_project_room {
-  height: 120px;
-  width: 200px;
-  border: 1px solid #50a660;
-  border-radius: 13px;
-}
-#home .home_project_area .home_project_room h6 {
-  color: var(--white-text);
-  text-transform: capitalize;
-  font-size: 26px;
-  text-align: center;
-  margin-top: 35px;
-}
-#home .home_project .project_texts h2 {
-  color: var(--white-text);
-  text-transform: capitalize;
-  font-size: 26px;
-  text-align: justify;
-  width: 565px;
-  margin-bottom: 25px;
-  line-height: 43px;
-}
-#home .home_project .project_texts p {
-  color: var(--white-text);
-  opacity: 0.6;
-  width: 565px;
-  text-align: justify;
-  margin-bottom: 0;
-} */
-/*home project css ends here  */
-
 /* code_runner css starts here  */
 #home .code_runner {
   font-family: "Fira Code", monospace;
   opacity: 0.6;
-  margin-bottom: 39px;
+}
+#home .code_runner p {
+  text-align: justify;
+}
+#home .code_runner .blue {
+  color: var(--code-color-blue);
+}
+#home .code_runner .white {
+  color: var(--code-color-white);
+}
+#home .code_runner .green {
+  color: var(--code-color-green);
+}
+#home .code_runner .red {
+  color: var(--code-color-red);
+}
+#home .code_runner .pink {
+  color: var(--code-color-pink);
+}
+#home .code_runner .gold {
+  color: var(--code-color-gold);
 }
 #home .code_runner .road_one {
   position: relative;
@@ -221,12 +197,9 @@ body {
 #home .code_runner .road_one .item {
   width: 34%;
   height: 100px;
-  /* background-color: var(--base-bg); */
-  /* background-color: red; */
   color: var(--white-text);
   border-radius: 6px;
   position: absolute;
-  /* left: -200px; */
   right: 100%;
   animation-name: scrollRight;
   animation-duration: 39s;
@@ -268,7 +241,6 @@ body {
 }
 
 #home .code_runner .road_two .item {
-  /* background-color: var(--base-bg); */
   width: 26%;
   height: 100px;
   color: var(--white-text);
@@ -344,42 +316,9 @@ body {
   animation-delay: calc(23s / 4 * (4 - 4) * -1);
 }
 
-/* #home .code_runner #property{
-  color: var(--white-text);
-  margin-left: 26px;
-}
-#home .code_runner #value{
-  color: var(--gold-bg);
-} */
-#home .code_runner p {
-  text-align: justify;
-}
-
-#home .code_runner .blue {
-  color: var(--code-color-blue);
-}
-#home .code_runner .white {
-  color: var(--code-color-white);
-}
-#home .code_runner .green {
-  color: var(--code-color-green);
-}
-#home .code_runner .red {
-  color: var(--code-color-red);
-}
-#home .code_runner .pink {
-  color: var(--code-color-pink);
-}
-#home .code_runner .gold {
-  color: var(--code-color-gold);
-}
 
 /* code_runner css ends here  */
 
 /* project section starts here  */
-/* #project{
-  padding: 49px 0;
-  background-color: var(--sub-bg);
-} */
 
 /* project section ends here  */
