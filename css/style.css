@@ -13,9 +13,9 @@ a {
   text-decoration: none;
   color: blue;
 }
-/* font-family: "Lato", sans-serif; */
-/* font-family: "Quicksand", sans-serif; */
-/* font-family: "Fira Code", monospace; */
+/* font-family: "Lato", sans-serif; */ 
+/* font-family: "Quicksand", sans-serif; */ 
+/* font-family: "Fira Code", monospace; */ 
 :root {
   --info-font: Lato, sans-serif;
   --heading-font: Quicksand, sans-serif;
