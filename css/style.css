@@ -318,5 +318,8 @@ a {
 /* code_runner css ends here  */
 
 /* project section starts here  */
-
+#project {
+  padding: 50px;
+  background-color: #0e2016;
+}
 /* project section ends here  */
