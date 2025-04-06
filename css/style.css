@@ -172,7 +172,7 @@ a {
 /* code_runner css starts here  */
 #home .code_runner {
   font-family: "Fira Code", monospace;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 #home .code_runner p {
   text-align: justify;
