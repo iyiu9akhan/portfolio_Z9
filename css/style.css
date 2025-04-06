@@ -135,12 +135,14 @@ a {
   font-family: var(--heading-font);
   border-radius: 9px;
   transition: all linear 0.3s;
+  
 }
 #home .left .banner_button .hire_me:hover {
   background-color: transparent;
   border: 1px solid var(--gold-bg);
   color: var(--white-text);
   transition: all linear 0.3s;
+
 }
 #home .right img {
   height: 458px;
