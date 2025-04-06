@@ -135,9 +135,29 @@ a {
   font-family: var(--heading-font);
   border-radius: 9px;
   transition: all linear 0.3s;
-  
+  margin-right: 20px;
 }
 #home .left .banner_button .hire_me:hover {
+  background-color: transparent;
+  border: 1px solid var(--gold-bg);
+  color: var(--white-text);
+  transition: all linear 0.3s;
+
+}
+#home .left .banner_button .services {
+  border: 1px solid var(--gold-bg);
+  background-color: var(--gold-bg);
+  cursor: pointer;
+  padding: 13px 29px;
+  color: var(--black-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+  border-radius: 9px;
+  transition: all linear 0.3s;
+  
+}
+#home .left .banner_button .services:hover {
   background-color: transparent;
   border: 1px solid var(--gold-bg);
   color: var(--white-text);
