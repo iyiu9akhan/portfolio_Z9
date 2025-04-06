@@ -312,7 +312,6 @@ a {
 #home .code_runner .road_three .item {
   width: 34%;
   height: 100px;
-  /* background-color: var(--base-bg); */
   color: var(--white-text);
   border-radius: 6px;
   position: absolute;
