@@ -60,7 +60,7 @@ a {
   margin: 0 16px;
 }
 #home .header .menu li a {
-  color: var(--gray-text);
+  color: var(--white-text);
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 500;
@@ -68,7 +68,7 @@ a {
   font-family: var(--heading-font);
 }
 #home .header .menu li:hover a {
-  color: var(--white-text);
+  color: var(--gold-bg);
   transition: all linear 0.3s;
 }
 #home .header .header_btn {
